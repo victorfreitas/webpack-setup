@@ -1,1 +1,1 @@
-import '~/app/style'
+console.log('Hello webpack!!!')
