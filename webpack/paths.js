@@ -1,14 +1,16 @@
 const { join } = require('path')
 
-const root = join(__dirname, '..')
-const assets = `${root}/assets`;
+const rootPath = join(__dirname, '..')
+const assets = `${rootPath}/assets`
 
-module.exports = {
-  root,
-  assets,
-  js: `${root}/js`,
-  scss: `${assets}/scss`,
-  images: `${assets}/images`,
-  src: name => `${assets}/js/${name}/src`,
-  public: `${root}/docs`
-}
+exports.rootPath = rootPath
+exports.assets = assets
+exports.css = `${assets}/css`
+exports.html = `${assets}/html`
+exports.fonts = `${assets}/fonts`
+exports.images = `${assets}/images`
+exports.public = `${rootPath}/docs`
+exports.js = `${assets}/js`
+exports.scss = `${assets}/scss`
+exports.style = name => `${assets}/scss/${name}`
+exports.script = name => `${assets}/js/${name}/src`

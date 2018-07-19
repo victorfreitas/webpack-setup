@@ -5,7 +5,7 @@ module.exports = () => ({
     extensions: ['.js', '.scss'],
     alias: {
       '~': scss,
-      'assets': assets
+      assets
     }
   }
 })

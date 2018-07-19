@@ -1,13 +1,15 @@
 const HTMLWebpackPlugin = require('html-webpack-plugin')
 
-const { public, assets } = require('../paths')
+const { public, html } = require('../paths')
 
-module.exports = prod => (
-  (!prod && public) && (
-    new HTMLWebpackPlugin({
-      filename: `${public}/index.html`,
-      template: `${assets}/html/index.html`,
-      hash: true
-    })
-  )
-)
+module.exports = prod => {
+  if (!(!prod && public && html)) {
+    return false
+  }
+
+  return new HTMLWebpackPlugin({
+    filename: `${public}/index.html`,
+    template: `${html}/index.html`,
+    hash: true
+  })
+}
