@@ -1,8 +1,5 @@
 body {
-    background-image: url(~assets/images/background.png);
-	background-position: center center;
-	background-repeat: no-repeat;
+    background: #2a3a42 url(~assets/images/background.png) center no-repeat;
 	background-attachment: fixed;
-	background-size: cover;
-	background-color: transparent;
+	background-size: contain;
 }
