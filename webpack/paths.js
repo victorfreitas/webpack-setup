@@ -10,5 +10,5 @@ module.exports = {
   scss: `${assets}/scss`,
   images: `${assets}/images`,
   src: name => `${assets}/js/${name}/src`,
-  public: `${root}/public`
+  public: `${root}/docs`
 }
