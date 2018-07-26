@@ -1,1 +1,3 @@
-console.log('Hello webpack!!!')
+import { title } from './hello.ts'
+
+console.log(title)

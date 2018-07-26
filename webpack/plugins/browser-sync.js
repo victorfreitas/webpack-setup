@@ -6,7 +6,7 @@ module.exports = prod => (
   (!prod && public) && (
     new BrowserSyncPlugin({
       host: '127.0.0.1',
-      port: 1987,
+      port: 3002,
       reload: true,
       server: {
         baseDir: [public]

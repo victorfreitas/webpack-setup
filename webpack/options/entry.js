@@ -6,5 +6,5 @@ module.exports = () => ({
       `${script('app')}/index.js`,
       `${style('app')}/style.scss`
     ]
-  }
+}
 })

@@ -10,6 +10,7 @@ exports.html = `${assets}/html`
 exports.fonts = `${assets}/fonts`
 exports.images = `${assets}/images`
 exports.public = `${rootPath}/docs`
+exports.dist = `${rootPath}/docs/js`
 exports.js = `${assets}/js`
 exports.scss = `${assets}/scss`
 exports.style = name => `${assets}/scss/${name}`
