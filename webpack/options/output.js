@@ -1,8 +1,8 @@
-const { dist } = require('../paths')
+const { public } = require('../paths')
 
 module.exports = () => ({
   output: {
-    path: dist,
+    path: `${public}/js`,
     filename: '[name].bundle.js'
   }
 })

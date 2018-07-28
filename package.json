@@ -1,6 +1,6 @@
 {
   "name": "webpack-setup",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Webpack structure setup",
   "main": "index.js",
   "private": true,
@@ -9,8 +9,8 @@
     "email": "victorfreitasdev@gmail.com"
   },
   "scripts": {
-    "dev": "webpack --config webpack/dev.config.js --watch --debug --progress",
-    "build": "webpack --config webpack/prod.config.js --progress"
+    "dev": "webpack --watch --debug --progress",
+    "build": "webpack --progress --production"
   },
   "devDependencies": {
     "@types/jquery": "^3.3.2",

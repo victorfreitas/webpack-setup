@@ -1,3 +1,3 @@
-import { title } from './hello.ts'
+const title = 'JavaScript'
 
 console.log(title)

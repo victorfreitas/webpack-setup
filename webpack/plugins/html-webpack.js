@@ -2,8 +2,8 @@ const HTMLWebpackPlugin = require('html-webpack-plugin')
 
 const { public, html } = require('../paths')
 
-module.exports = prod => {
-  if (!(!prod && public && html)) {
+module.exports = () => {
+  if (!(public && html)) {
     return false
   }
 

@@ -6,12 +6,9 @@ const assets = `${rootPath}/assets`
 exports.rootPath = rootPath
 exports.assets = assets
 exports.css = `${assets}/css`
-exports.html = `${assets}/html`
 exports.fonts = `${assets}/fonts`
+exports.html = `${assets}/html`
 exports.images = `${assets}/images`
-exports.public = `${rootPath}/docs`
-exports.dist = `${rootPath}/docs/js`
 exports.js = `${assets}/js`
 exports.scss = `${assets}/scss`
-exports.style = name => `${assets}/scss/${name}`
-exports.script = name => `${assets}/js/${name}/src`
+exports.public = `${rootPath}/docs`

@@ -1,3 +1,3 @@
 module.exports = prod => ({
-  devtool: prod ? false : 'eval-source-map'
+  devtool: prod ? false : 'eval'
 })
