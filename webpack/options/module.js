@@ -1,7 +1,7 @@
 const rules = require('../rules')
 
-module.exports = prod => ({
+module.exports = {
   module: {
-    rules: rules(prod)
+    rules
   }
-})
+}
