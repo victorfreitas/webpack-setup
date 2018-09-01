@@ -12,7 +12,7 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack --watch --progress",
     "build": "cross-env NODE_ENV=production webpack --progress",
-    "deploy": "gh-pages -d public"
+    "deploy": "npm run build && gh-pages -d public"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
