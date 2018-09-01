@@ -5,6 +5,7 @@
     "sourceMap": true,
     "lib": ["es2018", "dom", "esnext"],
     "strict": true,
-    "noUnusedParameters": true
+    "noUnusedParameters": true,
+    "moduleResolution": "node"
   }
 }

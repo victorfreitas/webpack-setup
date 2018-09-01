@@ -41,7 +41,4 @@ class Autoload {
   }
 }
 
-module.exports = root => {
-  const autoload = new Autoload(root)
-  return autoload.toArray()
-}
+module.exports = root => new Autoload(root).toArray()

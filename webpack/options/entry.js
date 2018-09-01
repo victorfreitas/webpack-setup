@@ -2,6 +2,6 @@ const { js, scss } = require('../paths')
 
 module.exports = {
   entry: {
-    app: [`${js}/app/src/index.js`, `${scss}/app/style.scss`],
+    app: [`${js}/app/src/index.ts`, `${scss}/app/style.scss`],
   },
 }

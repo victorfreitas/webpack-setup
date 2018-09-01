@@ -12,5 +12,5 @@ module.exports = {
   images: `${assets}/images`,
   js: `${assets}/js`,
   scss: `${assets}/scss`,
-  public: `${rootPath}/docs`,
+  public: `${rootPath}/public`,
 }
